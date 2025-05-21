@@ -9,7 +9,7 @@ import lombok.Data;
 public class Livro {
     private int ano;
     private String autor;
-    private String titutlo;
+    private String titulo;
     private String ISBN;
 
 }
