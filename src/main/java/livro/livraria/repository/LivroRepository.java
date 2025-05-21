@@ -21,7 +21,7 @@ public class LivroRepository {
     }
 
     public List<Livro> buscarTodos() {
-        return new ArrayList<>(livros); // Retorna cópia para evitar modificações externas
+        return new ArrayList<>(livros); 
     }
     
     public List<Livro> buscarPorTitulo(String titulo) {
